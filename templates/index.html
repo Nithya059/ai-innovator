@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Innovator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Innovator</h1>
+        <form method="POST">
+            <input type="text" name="problem" placeholder="Enter a problem to solve" required>
+            <button type="submit">Generate Startup Idea</button>
+        </form>
+        <div class="result">
+            <pre>{{ result }}</pre>
+        </div>
+    </div>
+</body>
+</html>
